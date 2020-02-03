@@ -1,0 +1,85 @@
+00:16:36.471 INFO - Selenium build info: version: '3.8.1', revision: '6e95a6684b'
+00:16:36.471 INFO - Launching a standalone Selenium Server
+2020-01-31 00:16:36.534:INFO::main: Logging initialized @238ms to org.seleniumhq.jetty9.util.log.StdErrLog
+00:16:36.565 INFO - Using `new FirefoxOptions()` is preferred to `DesiredCapabilities.firefox()`
+00:16:36.596 INFO - Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
+00:16:36.596 INFO - Using `new EdgeOptions()` is preferred to `DesiredCapabilities.edge()`
+00:16:36.596 INFO - Driver class not found: com.opera.core.systems.OperaDriver
+00:16:36.596 INFO - Using `new OperaOptions()` is preferred to `DesiredCapabilities.operaBlink()`
+00:16:36.596 INFO - Using `new SafariOptions()` is preferred to `DesiredCapabilities.safari()`
+00:16:36.596 INFO - Driver class not found: org.openqa.selenium.phantomjs.PhantomJSDriver
+00:16:36.628 INFO - Driver provider class org.openqa.selenium.safari.SafariDriver registration is skipped:
+ registration capabilities Capabilities {browserName: safari, platform: MAC, version: } does not match the current platform WIN10
+00:16:36.643 INFO - Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
+00:16:36.643 INFO - Using `new EdgeOptions()` is preferred to `DesiredCapabilities.edge()`
+00:16:36.643 INFO - Using `new FirefoxOptions()` is preferred to `DesiredCapabilities.firefox()`
+00:16:36.659 INFO - Using `new OperaOptions()` is preferred to `DesiredCapabilities.operaBlink()`
+00:16:36.659 INFO - Using `new SafariOptions()` is preferred to `DesiredCapabilities.safari()`
+00:16:36.659 INFO - Using the passthrough mode handler
+2020-01-31 00:16:36.690:INFO:osjs.Server:main: jetty-9.4.7.v20170914
+2020-01-31 00:16:36.721:WARN:osjs.SecurityHandler:main: ServletContext@o.s.j.s.ServletContextHandler@17942a1{/,null,STARTING} has uncovered http methods for path: /
+2020-01-31 00:16:36.721:INFO:osjsh.ContextHandler:main: Started o.s.j.s.ServletContextHandler@17942a1{/,null,AVAILABLE}
+2020-01-31 00:16:36.973:INFO:osjs.AbstractConnector:main: Started ServerConnector@19b92f3{HTTP/1.1,[http/1.1]}{0.0.0.0:4444}
+2020-01-31 00:16:36.973:INFO:osjs.Server:main: Started @675ms
+00:16:36.973 INFO - Selenium Server is up and running
+2020-01-31 00:16:37.736:INFO:osjshC.ROOT:qtp31816156-13: org.openqa.selenium.remote.server.WebDriverServlet-1faf8f2: Initialising WebDriverServlet
+00:16:37.783 INFO - Found handler: org.openqa.selenium.remote.server.commandhandler.BeginSession@12f4915
+00:16:37.783 INFO - /session: Executing POST on /session (handler: BeginSession)
+00:16:37.846 INFO - Capabilities are: Capabilities {acceptSslCerts: true, browserName: firefox, javascriptEnabled: true, marionette: true, name: Google}
+00:16:37.846 INFO - Capabilities {acceptSslCerts: true, browserName: firefox, javascriptEnabled: true, marionette: true, name: Google} matched class org.openqa.selenium.remote.server.ServicedSession$Factory (provider: org.openqa.selenium.firefox.GeckoDriverService)
+1580447797908	geckodriver	INFO	geckodriver 0.20.0
+1580447797924	geckodriver	INFO	Listening on 127.0.0.1:21042
+1580447798898	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\dwine\\AppData\\Local\\Temp\\rust_mozprofile.rwVIymwccHZD"
+1580447799262	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1580447799367	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1580447799367	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1580447799367	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1580447799368	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1580447799456	Marionette	TRACE	Received observer notification profile-after-change
+1580447799501	Marionette	TRACE	Received observer notification toplevel-window-ready
+1580447799547	Marionette	TRACE	Received observer notification command-line-startup
+1580447799547	Marionette	DEBUG	Init aborted (running=false, enabled=true, finalUIStartup=false)
+1580447799607	Marionette	TRACE	Received observer notification toplevel-window-ready
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1580447801156	Marionette	TRACE	Received observer notification marionette-startup-requested
+1580447801157	Marionette	TRACE	Waiting until startup recorder finished recording startup scripts...
+1580447801177	Marionette	TRACE	All scripts recorded.
+1580447801177	Marionette	DEBUG	Setting recommended pref app.update.disabledForTesting to true
+1580447801177	Marionette	DEBUG	Setting recommended pref browser.contentblocking.introCount to 99
+1580447801177	Marionette	DEBUG	Setting recommended pref browser.newtabpage.enabled to false
+1580447801179	Marionette	DEBUG	Setting recommended pref browser.tabs.remote.separatePrivilegedContentProcess to false
+1580447801179	Marionette	DEBUG	Setting recommended pref browser.tabs.unloadOnLowMemory to false
+1580447801179	Marionette	DEBUG	Setting recommended pref datareporting.policy.dataSubmissionPolicyAccepted to false
+1580447801179	Marionette	DEBUG	Setting recommended pref dom.disable_beforeunload to true
+1580447801180	Marionette	DEBUG	Setting recommended pref dom.push.connection.enabled to false
+1580447801180	Marionette	DEBUG	Setting recommended pref privacy.trackingprotection.enabled to false
+1580447801180	Marionette	DEBUG	Setting recommended pref security.certerrors.mitm.priming.enabled to false
+1580447801180	Marionette	DEBUG	Setting recommended pref toolkit.cosmeticAnimations.enabled to false
+1580447801218	Marionette	INFO	Listening on port 57986
+1580447801218	Marionette	DEBUG	Marionette is listening
+1580447801438	Marionette	DEBUG	Accepted connection 0 from 127.0.0.1:58004
+1580447801440	Marionette	DEBUG	0 -> [0,1,"newSession",{"browserName":"firefox","capabilities":{"desiredCapabilities":{"browserName":"firefox"}}}]
+1580447801441	Marionette	DEBUG	0 <- [1,1,{"error":"unknown command","message":"newSession","stacktrace":"WebDriverError@chrome://marionette/content/error.js:175: ... t@chrome://marionette/content/server.js:249:9\n_onJSONObjectReady/<@chrome://marionette/content/transport.js:501:20\n"},null]
+1580447810156	Marionette	DEBUG	Closed connection 0
+1580447810467	Marionette	TRACE	Received observer notification xpcom-will-shutdown
+1580447810467	Marionette	DEBUG	Resetting recommended pref app.update.disabledForTesting
+1580447810467	Marionette	DEBUG	Resetting recommended pref browser.contentblocking.introCount
+1580447810467	Marionette	DEBUG	Resetting recommended pref browser.newtabpage.enabled
+1580447810468	Marionette	DEBUG	Resetting recommended pref browser.tabs.remote.separatePrivilegedContentProcess
+1580447810468	Marionette	DEBUG	Resetting recommended pref browser.tabs.unloadOnLowMemory
+1580447810468	Marionette	DEBUG	Resetting recommended pref datareporting.policy.dataSubmissionPolicyAccepted
+1580447810468	Marionette	DEBUG	Resetting recommended pref dom.disable_beforeunload
+1580447810468	Marionette	DEBUG	Resetting recommended pref dom.push.connection.enabled
+1580447810468	Marionette	DEBUG	Resetting recommended pref privacy.trackingprotection.enabled
+1580447810468	Marionette	DEBUG	Resetting recommended pref security.certerrors.mitm.priming.enabled
+1580447810469	Marionette	DEBUG	Resetting recommended pref toolkit.cosmeticAnimations.enabled
+1580447810469	Marionette	INFO	Stopped listening on port 57986
+1580447810469	Marionette	DEBUG	Marionette stopped listening
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1580447811009	geckodriver::marionette	ERROR	Failed to stop browser process
+00:16:51.158 INFO - HTTP Status: '404' -> incorrect JSON status mapping for 'unknown error' (500 expected)
